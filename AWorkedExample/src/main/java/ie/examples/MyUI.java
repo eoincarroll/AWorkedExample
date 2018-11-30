@@ -33,14 +33,14 @@ public class MyUI extends UI {
             layout.addComponent(new Label("Thanks it works!"));
         });
         
-        Button button2 = new Button(" Me");
+        Button button2 = new Button("Me");
         button2.addClickListener(e -> {
-            layout.addComponent(new Label("Thanks it works!"));
+            layout.addComponent(new Label("Me!"));
         });
         
         Button button3 = new Button("Click ");
-        button.addClickListener(e -> {
-            layout.addComponent(new Label("Thanks it works!"));
+        button3.addClickListener(e -> {
+            layout.addComponent(new Label("Click!"));
         });
         
         layout.addComponents(myLabel, button, button2, button3);
