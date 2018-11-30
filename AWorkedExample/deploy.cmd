@@ -1,3 +1,0 @@
-@echo off
-echo Deploying files...
-xcopy ./target/ROOT.war D:\home\site\wwwroot\webapp\ROOT.war /Y    
