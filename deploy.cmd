@@ -3,6 +3,6 @@
 echo ---Deploying site 
 
 
-xcopy d:\home\site\repository\AWorkedExample\target\*.war %DEPLOYMENT_TARGET%\webapps\ROOT.war /Y /s 
+copy d:\home\site\repository\AWorkedExample\target\*.war %DEPLOYMENT_TARGET%\webapps\ROOT.war /Y /s 
 
  
